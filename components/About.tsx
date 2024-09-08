@@ -14,15 +14,15 @@ const About = () => {
             className="rounded-full w-20 shadow-sm shadow-white"
             alt=""
           />
-          <span className="bg-[#1f2937] font-semibold flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
+          <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
             <IoIosCodeWorking size={24} />
             Disponible para trabajar
           </span>
-          <span className="bg-[#1f2937] font-semibold flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
+          <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
             <RiReactjsFill size={24} />
             FullStack
           </span>
-          <span className="bg-[#1f2937] font-semibold  flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
+          <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold  flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
             <LuBrainCircuit size={24} />
             IA lover
           </span>
@@ -30,9 +30,11 @@ const About = () => {
         <div className="mt-10">
           <h1 className="text-5xl font-bold text-white">Hey, soy kevin</h1>
           <p className="text-xl mt-7">
-            +10 años de experiencia. Ingeniero de Software y Apasionado por el
-            desarrollo de soluciones digitales en Valencia, España.
-            Especializado en el desarrollo de aplicaciones web únicas.
+            Desarrollador front-end con más de 5 años de experiencia en la
+            creación de interfaces web modernas y escalables. He trabajado en
+            proyectos para grandes empresas y como freelance, utilizando
+            tecnologías como HTML, CSS, JavaScript y React para optimizar la
+            experiencia de usuario y el rendimiento de aplicaciones web.
           </p>
           <div className="flex gap-7 mt-10">
             <button className="rounded-full border-2 border-[#f1f2f3]">
