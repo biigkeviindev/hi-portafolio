@@ -19,7 +19,8 @@ const About = () => {
             Disponible para trabajar
           </span>
           <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
-            <RiReactjsFill size={24} />- FullStack
+            <RiReactjsFill size={24} />
+            FullStack
           </span>
           <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold  flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
             <LuBrainCircuit size={24} />
