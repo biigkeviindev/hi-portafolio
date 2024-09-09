@@ -7,7 +7,10 @@ const Experience = () => {
   const [seeMore, setSeeMore] = useState(3);
 
   return (
-    <div className="sectionno container flex  mx-auto lg:max-w-[1024px] md:max-w-2xl">
+    <div
+      id="experience"
+      className="sectionno container flex  mx-auto lg:max-w-[1024px] md:max-w-2xl"
+    >
       <div>
         <h2 className="text-[30px] flex items-center gap-4 font-bold">
           <MdWork />

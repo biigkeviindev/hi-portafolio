@@ -6,7 +6,10 @@ import { GiThumbDown } from "react-icons/gi";
 
 export const Projects = () => {
   return (
-    <div className="mt-16 container flex  mx-auto pb-20 lg:max-w-[1024px] md:max-w-2xl">
+    <div
+      id="projects"
+      className="mt-16 container flex  mx-auto pb-20 lg:max-w-[1024px] md:max-w-2xl"
+    >
       <div>
         <h2 className="text-[30px] flex items-center gap-4 font-bold">
           <FaCode />

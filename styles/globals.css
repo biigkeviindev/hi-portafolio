@@ -20,3 +20,7 @@ button {
 .section {
   min-height: 70vh;
 }
+
+.z-index-full {
+  z-index: 999999;
+}

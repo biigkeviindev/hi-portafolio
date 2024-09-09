@@ -3,7 +3,10 @@ import { GrContact } from "react-icons/gr";
 
 const Contact = () => {
   return (
-    <div className="sectionno container flex  mx-auto lg:max-w-[1024px] md:max-w-2xl">
+    <div
+      id="contacto"
+      className="sectionno container flex  mx-auto lg:max-w-[1024px] md:max-w-2xl"
+    >
       <div className="w-1/2">
         <h4 className="text-2xl font-bold">¿Hablamos?</h4>
         <p className="mb-5">Tu idea, sea la que sea, me interesa.</p>
