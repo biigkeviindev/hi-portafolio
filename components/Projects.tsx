@@ -16,8 +16,8 @@ export const Projects = () => {
           Proyectos
         </h2>
         <div className="mt-20 flex flex-col gap-14">
-          {projects.map((entry) => (
-            <Item item={entry} />
+          {projects.map((entry, key) => (
+            <Item key={key} item={entry} />
           ))}
         </div>
       </div>
@@ -34,8 +34,10 @@ export const Item = ({ item }: any) => {
       <div className="flex flex-col justify-center w-1/2">
         <h3 className="text-xl font-bold text-white">{item.titulo}</h3>
         <div className="gap-4 flex">
-          {item.herramientas.map((entry: any) => (
-            <span className="text-sm text-[#c7c7c7]">{entry}</span>
+          {item.herramientas.map((entry: any, key: number) => (
+            <span key={key} className="text-sm text-[#c7c7c7]">
+              {entry}
+            </span>
           ))}
         </div>
         <p className="mt-5">{item.descripcion}</p>

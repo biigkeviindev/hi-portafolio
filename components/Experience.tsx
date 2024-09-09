@@ -19,7 +19,7 @@ const Experience = () => {
         <div className="mt-20">
           {experiencieProfile.map(
             (entry: any, index: number) =>
-              index < seeMore && <Item item={entry} />
+              index < seeMore && <Item key={index} item={entry} />
           )}
         </div>
         <div className="flex justify-center py-7 pt-11">
