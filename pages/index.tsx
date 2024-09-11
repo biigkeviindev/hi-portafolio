@@ -12,7 +12,7 @@ import LogRocket from "logrocket";
 import Head from "next/head";
 
 export default function Home() {
-  LogRocket.init("onp7ck/hikevindev");
+  // LogRocket.init("onp7ck/hikevindev");
 
   return (
     <section>

@@ -1,4 +1,5 @@
 import React from "react";
+import { PiPhone } from "react-icons/pi";
 import { TiThMenu } from "react-icons/ti";
 
 const Header = () => {
@@ -21,13 +22,20 @@ const Header = () => {
           </a>
         </nav>
         {/* Mobile */}
-        <div className="w-full md:hidden h-16 flex items-center justify-between px-3 bg-[#1f2937] text-white">
+        <div className="fixed w-full md:hidden h-16 flex items-center justify-between  px-3 bg-[#1f2937] text-white">
           <div>
-            <p className="font-extrabold text-[#facc15]">KevinDev</p>
+            <img className="w-[140px]" src="logo.png" alt="Logo Web" />
           </div>
           <div className="flex items-center gap-3">
-            <p className="font-extrabold ">+34 654470578</p>
-            <TiThMenu className="cursor-pointer" size={30} color="#ffffff" />
+            <a
+              href="https://wa.me/34654470578"
+              target="_blank"
+              className="flex gap-2 bg-[#facc15] text-black rounded-md px-4 py-1"
+            >
+              <PiPhone size={24} />
+              Contactar
+            </a>
+            {/* <TiThMenu className="cursor-pointer" size={30} color="#ffffff" /> */}
           </div>
         </div>
       </div>

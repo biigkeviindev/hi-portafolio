@@ -6,7 +6,7 @@ import { RiReactjsFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className="section container flex items-center justify-center mx-auto lg:max-w-[1024px] md:max-w-2xl">
+    <div className="section container flex items-center justify-center mx-auto lg:max-w-[1024px] md:max-w-2xl pt-8">
       <div className="flex-col ">
         <div className="flex flex-col md:flex-row items-center gap-4">
           <img
@@ -34,11 +34,12 @@ const About = () => {
             Hey, soy Kevin programador web freelance
           </h1>
           <p className="text-sm md:text-xl mt-7">
-            Desarrollador FullStack con más de 5 años de experiencia en la
-            creación de interfaces web modernas y escalables. He trabajado en
+            <b>Desarrollador FullStack</b> con más de 5 años de experiencia en
+            la creación de interfaces web modernas y escalables. He trabajado en
             proyectos para grandes empresas y como freelance, utilizando
-            tecnologías como HTML, CSS, JavaScript y React para optimizar la
-            experiencia de usuario y el rendimiento de aplicaciones web.
+            tecnologías como <b> HTML, CSS, JavaScript y React</b> para
+            optimizar la experiencia de usuario y el rendimiento de aplicaciones
+            web.
           </p>
           <div className="flex justify-center md:justify-start gap-7 mt-10">
             <a
