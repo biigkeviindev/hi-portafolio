@@ -11,7 +11,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-4">
           <img
             src="shortcut.jpg"
-            className="rounded-full w-20 shadow-sm shadow-white"
+            className="rounded-full w-20 shadow-sm shadow-white border-3 border-custom-green"
             alt=""
           />
           <div className="flex gap-2">

@@ -19,6 +19,9 @@ const config: Config = {
       zIndex: {
         "9999": "9999",
       },
+      colors: {
+        "custom-green": "#1FFF5E", // Añadir el color personalizado
+      },
     },
   },
   plugins: [],
