@@ -26,14 +26,14 @@ const Experience = () => {
           {experiencieProfile.length !== seeMore ? (
             <FaArrowAltCircleDown
               size={50}
-              color="#facc15"
+              color="#1FFF5E "
               className="cursor-pointer"
               onClick={() => setSeeMore(experiencieProfile.length)}
             />
           ) : (
             <FaArrowAltCircleUp
               size={50}
-              color="#facc15"
+              color="#1FFF5E"
               className="cursor-pointer"
               onClick={() => setSeeMore(3)}
             />
@@ -48,14 +48,14 @@ const Item = ({ item }: any) => {
   return (
     <div className="flex flex-col md:flex-row relative pt-4  pb-3 border-l-2 border-[#f1f2f3] min-h-[8rem] ">
       <div className="px-6 md:w-1/2">
-        <p className="text-xl text-[#facc15]">{item.cargo}</p>
+        <p className="text-xl text-[#1FFF5E ]">{item.cargo}</p>
         <p className="text-xl">{item.empresa}</p>
         <span className="text-sm text-[#ffffffcc]">{item.rango_fechas}</span>
       </div>
       <div className="px-6 md:w-1/2">
         <p className="text-[14px] md:text-lg">{item.descripcion}</p>
       </div>
-      <div className="absolute w-4 h-4 rounded-full -left-2 bg-[#facc15]"></div>
+      <div className="absolute w-4 h-4 rounded-full -left-2 bg-[#1FFF5E ]"></div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ import { RiReactjsFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className="section container flex items-center justify-center mx-auto lg:max-w-[1024px] md:max-w-2xl pt-16 md:pt-0">
+    <div className="section container flex items-center justify-center mx-auto lg:max-w-[1024px] md:max-w-2xl pt-20 md:pt-0">
       <div className="flex-col ">
         <div className="flex flex-col md:flex-row items-center gap-4">
           <img
@@ -45,7 +45,7 @@ const About = () => {
             <a
               href="https://wa.me/34654470578"
               target="_blank"
-              className="hover:shadow-md transition hover:bg-[#facc15] hover:text-black hover:border-[#ffffff] shadow-slate-600 flex items-center px-5 gap-3 rounded-full border-2 border-[#f1f2f3]"
+              className="hover:shadow-md transition hover:bg-[#1FFF5E ] hover:text-black hover:border-[#ffffff] shadow-slate-600 flex items-center px-5 gap-3 rounded-full border-2 border-[#f1f2f3]"
             >
               <BiSolidContact />
               Contáctame
@@ -53,7 +53,7 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/kevinriveradev/"
               target="_blank"
-              className="hover:shadow-md transition hover:bg-[#facc15] hover:text-black flex items-center px-5 py-2 gap-3 rounded-full border-2 border-[#f1f2f3]"
+              className="hover:shadow-md transition hover:bg-[#1FFF5E ] hover:text-black flex items-center px-5 py-2 gap-3 rounded-full border-2 border-[#f1f2f3]"
             >
               <BiLogoLinkedin />
               LinkedIn
