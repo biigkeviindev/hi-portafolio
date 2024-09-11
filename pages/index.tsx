@@ -5,8 +5,8 @@ import Experience from "@/components/Experience";
 import { Projects } from "@/components/Projects";
 import { Profile } from "@/components/Profile";
 import Contact from "@/components/Contact";
-
-const inter = Inter({ subsets: ["latin"] });
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
       <Projects />
       <Profile />
       <Contact />
+      <ToastContainer />
     </section>
   );
 }

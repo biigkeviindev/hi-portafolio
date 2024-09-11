@@ -1,7 +1,31 @@
-import React from "react";
+import axios from "axios";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import { GrContact } from "react-icons/gr";
+import { toast } from "react-toastify";
 
 const Contact = () => {
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+    reset,
+  } = useForm();
+
+  const [loading, setLoading] = useState(false);
+
+  const notify = (message: string) => toast.success(message);
+
+  const onSubmit = async (content: any) => {
+    setLoading(true);
+    const sendMessage = await axios.post("/api/save-message", content);
+    if (sendMessage.status == 200) {
+      notify(sendMessage.data.msg);
+      reset();
+    }
+    setLoading(false);
+  };
   return (
     <div
       id="contacto"
@@ -35,27 +59,35 @@ const Contact = () => {
         </div>
       </div>
       <div className="w-1/2">
-        <form className="flex flex-col gap-4">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
           <input
             type="text"
             placeholder="* Nombre"
-            className="w-full px-4 py-2"
+            className="w-full px-4 py-2 text-black rounded-md"
+            {...register("customer")}
           />
           <input
-            type="text"
+            type="email"
             placeholder="* Email"
-            className="w-full px-4 py-2"
+            className="w-full px-4 py-2 text-black rounded-md"
+            {...register("email")}
           />
           <input
-            type="text"
+            type="number"
             placeholder="* Teléfono"
-            className="w-full px-4 py-2"
+            className="w-full px-4 py-2 text-black rounded-md"
+            {...register("phone")}
           />
           <textarea
             placeholder="* Escribe consulta"
-            className="w-full px-4 py-2 h-40"
+            className="w-full px-4 py-2 h-40 text-black rounded-md"
+            {...register("message")}
           ></textarea>
-          <button className="mt-5 font-bold w-fit bg-[#facc15] text-black rounded-md">
+          <button
+            type="submit"
+            disabled={loading}
+            className="mt-5 font-bold w-fit bg-[#facc15] text-black rounded-md"
+          >
             <GrContact />
             Enviar formulario
           </button>
