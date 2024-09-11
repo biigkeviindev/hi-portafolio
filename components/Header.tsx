@@ -23,9 +23,10 @@ const Header = () => {
         {/* Mobile */}
         <div className="w-full md:hidden h-16 flex items-center justify-between px-3 bg-[#1f2937] text-white">
           <div>
-            <p className="font-extrabold">KevinDev</p>
+            <p className="font-extrabold text-[#facc15]">KevinDev</p>
           </div>
-          <div>
+          <div className="flex items-center gap-3">
+            <p className="font-extrabold ">+34 654470578</p>
             <TiThMenu className="cursor-pointer" size={30} color="#ffffff" />
           </div>
         </div>
