@@ -36,16 +36,20 @@ const Contact = () => {
         <p className="mb-5">Tu idea, sea la que sea, me interesa.</p>
 
         <div className="mb-6">
-          <h5 className="font-bold">Datos de contacto</h5>
+          <h5 className="font-bold mb-3">Datos de contacto</h5>
           <p className="text-[14px]">
-            Teléfono de contacto: +34 654 47 05 78 Teléfono para empresas
+            <b>Teléfono de contacto:</b> +34 654 47 05 78 Teléfono para empresas
           </p>
-          <p className="text-[14px]">Agencias: +34 654 470 578 </p>
-          <p className="text-[14px]">Email:hi.kevindev@gmail.com</p>
+          <p className="text-[14px]">
+            <b>Agencias:</b> +34 654 470 578{" "}
+          </p>
+          <p className="text-[14px]">
+            <b>Email:</b>hi.kevindev@gmail.com
+          </p>
         </div>
 
         <div className="mb-6">
-          <h5 className="font-bold">Horarios</h5>
+          <h5 className="font-bold mb-3">Horarios</h5>
           <p className="text-[14px]">Online: 24/7</p>
           <p className="text-[14px]">
             Atención al cliente: Lunes a Viernes de 09:00 a 19:00
@@ -53,7 +57,7 @@ const Contact = () => {
         </div>
 
         <div className="mb-6">
-          <h5 className="font-bold">Dirección</h5>
+          <h5 className="font-bold mb-3">Dirección</h5>
           <p className="text-[14px]">Online: 24/7</p>
           <p className="text-[14px]">C/ San Roque 52, Soneja, Castellon.</p>
         </div>
