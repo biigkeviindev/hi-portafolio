@@ -15,15 +15,15 @@ const About = () => {
             alt=""
           />
           <div className="flex gap-2">
-            <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-2 md:gap-4 border-2 text-[12px] md:text-[14px] px-4 md:px-8 py-1 rounded-full">
+            <span className="cursor-pointer shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-2 md:gap-4 border-2 text-[12px] md:text-[14px] px-4 md:px-8 py-1 rounded-full">
               <IoIosCodeWorking size={24} />
               Disponible
             </span>
-            <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-2 md:gap-4 border-2 text-[12px] md:text-[14px] px-4 md:px-8 py-1 rounded-full">
+            <span className="cursor-pointer shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-2 md:gap-4 border-2 text-[12px] md:text-[14px] px-4 md:px-8 py-1 rounded-full">
               <RiReactjsFill size={24} />
               FullStack
             </span>
-            <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold  flex items-center gap-2 md:gap-4 border-2 text-[12px] md:text-[14px] px-4 md:px-8 py-1 rounded-full">
+            <span className="cursor-pointer shadow-sm shadow-white bg-[#1f2937] font-semibold  flex items-center gap-2 md:gap-4 border-2 text-[12px] md:text-[14px] px-4 md:px-8 py-1 rounded-full">
               <LuBrainCircuit size={24} />
               IA lover
             </span>
@@ -31,7 +31,7 @@ const About = () => {
         </div>
         <div className="mt-10 px-3">
           <h1 className="text-3xl md:text-5xl font-bold text-white">
-            Hey, soy kevin
+            Hey, soy Kevin programador web freelance
           </h1>
           <p className="text-sm md:text-xl mt-7">
             Desarrollador FullStack con más de 5 años de experiencia en la

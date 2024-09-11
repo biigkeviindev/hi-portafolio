@@ -9,6 +9,7 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import LogRocket from "logrocket";
+import Head from "next/head";
 
 const listProdSites = ["http://www.hikevindev.es/"];
 
@@ -20,6 +21,17 @@ export default function Home() {
 
   return (
     <section>
+      <Head>
+        <title>Desarrollo de Aplicaciones Móviles y Web</title>
+        <meta
+          name="description"
+          content="Programador web freelance especializado en desarrollo de aplicaciones móviles y sitios web a medida. Contacta para un desarrollo personalizado y eficiente."
+        ></meta>
+        <meta
+          name="keywords"
+          content="Programador web freelance, Desarrollo de aplicaciones móviles,Desarrollador web freelance,Servicios de programación web, Desarrollo de software personalizado"
+        ></meta>
+      </Head>
       <About />
       <Experience />
       <Projects />
