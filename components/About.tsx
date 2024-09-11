@@ -45,7 +45,7 @@ const About = () => {
             <a
               href="https://wa.me/34654470578"
               target="_blank"
-              className="hover:shadow-md transition hover:bg-[#1FFF5E ] hover:text-black hover:border-[#ffffff] shadow-slate-600 flex items-center px-5 gap-3 rounded-full border-2 border-[#f1f2f3]"
+              className="hover:shadow-md transition hover:bg-[#1FFF5E] hover:text-black hover:border-[#ffffff] shadow-slate-600 flex items-center px-5 gap-3 rounded-full border-2 border-[#f1f2f3]"
             >
               <BiSolidContact />
               Contáctame
@@ -53,7 +53,7 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/kevinriveradev/"
               target="_blank"
-              className="hover:shadow-md transition hover:bg-[#1FFF5E ] hover:text-black flex items-center px-5 py-2 gap-3 rounded-full border-2 border-[#f1f2f3]"
+              className="hover:shadow-md transition hover:bg-[#1FFF5E] hover:text-black flex items-center px-5 py-2 gap-3 rounded-full border-2 border-[#f1f2f3]"
             >
               <BiLogoLinkedin />
               LinkedIn

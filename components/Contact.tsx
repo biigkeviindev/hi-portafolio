@@ -90,7 +90,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={loading}
-            className="mt-5 font-bold w-fit bg-[#1FFF5E ] text-black rounded-md"
+            className="mt-5 font-bold w-fit bg-[#1FFF5E] text-black rounded-md"
           >
             <GrContact />
             Enviar formulario
