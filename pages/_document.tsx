@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Html, Head, Main, NextScript } from "next/document";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function Document() {
   return (
@@ -28,6 +29,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         <NextScript />
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-DM9F0YZV31" />
     </Html>
   );
 }
