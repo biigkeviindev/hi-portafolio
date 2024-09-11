@@ -1,10 +1,11 @@
 import React from "react";
+import { TiThMenu } from "react-icons/ti";
 
 const Header = () => {
   return (
-    <header className="flex justify-center pt-5 fixed right-0 left-0 z-index-full">
-      <div className="bg-[#1f2937] z-[9999] w-fit px-14 rounded-full  shadow-sm">
-        <nav className="flex justify-center text-[#E5E7EB] gap-8 py-3 ">
+    <header className="flex justify-center w-full md:pt-5 md:fixed md:right-0 md:left-0 z-index-full">
+      <div className="bg-[#1f2937] z-[9999] w-full md:w-fit md:px-14 md:rounded-full  shadow-sm">
+        <nav className="hidden md:flex justify-center text-[#E5E7EB] gap-8 py-3 ">
           <a href="#experience" className="cursor-pointer hover:text-[#f1f2f3]">
             Experiencia
           </a>
@@ -19,6 +20,15 @@ const Header = () => {
             Sobre mí
           </a>
         </nav>
+        {/* Mobile */}
+        <div className="w-full md:hidden h-16 flex items-center justify-between px-3 bg-[#1f2937] text-white">
+          <div>
+            <p className="font-extrabold">KevinDev</p>
+          </div>
+          <div>
+            <TiThMenu className="cursor-pointer" size={30} color="#ffffff" />
+          </div>
+        </div>
       </div>
     </header>
   );

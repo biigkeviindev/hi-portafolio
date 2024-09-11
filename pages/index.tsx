@@ -14,13 +14,14 @@ const listProdSites = ["http://www.hikevindev.es/"];
 
 export default function Home() {
   //Init register site
-  if (listProdSites.includes(window.location.origin)) {
-    LogRocket.init("onp7ck/hikevindev");
-  }
+  // if (listProdSites.includes(window.location.origin)) {
+  //   LogRocket.init("onp7ck/hikevindev");
+  // }
 
   return (
     <section>
-      <About />
+      <About />{" "}
+      {/* 
       <Experience />
       <Projects />
       <Profile />
@@ -31,7 +32,7 @@ export default function Home() {
         accountName="Kevin Rivera"
         chatMessage="Hola! Me encataría conocer tu proyecto, escribeme para saber más."
         darkMode={true}
-      />
+      /> */}
     </section>
   );
 }

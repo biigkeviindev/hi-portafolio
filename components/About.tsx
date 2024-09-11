@@ -8,35 +8,39 @@ const About = () => {
   return (
     <div className="section container flex items-center justify-center mx-auto lg:max-w-[1024px] md:max-w-2xl">
       <div className="flex-col ">
-        <div className="flex items-center gap-4">
+        <div className="flex flex-col md:flex-row items-center gap-4">
           <img
             src="shortcut.jpg"
             className="rounded-full w-20 shadow-sm shadow-white"
             alt=""
           />
-          <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
-            <IoIosCodeWorking size={24} />
-            Disponible para trabajar
-          </span>
-          <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
-            <RiReactjsFill size={24} />
-            FullStack
-          </span>
-          <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold  flex items-center gap-4 border-2 text-[14px] px-8 py-1 rounded-full">
-            <LuBrainCircuit size={24} />
-            IA lover
-          </span>
+          <div className="flex gap-2">
+            <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-2 md:gap-4 border-2 text-[12px] md:text-[14px] px-4 md:px-8 py-1 rounded-full">
+              <IoIosCodeWorking size={24} />
+              Disponible
+            </span>
+            <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold flex items-center gap-2 md:gap-4 border-2 text-[12px] md:text-[14px] px-4 md:px-8 py-1 rounded-full">
+              <RiReactjsFill size={24} />
+              FullStack
+            </span>
+            <span className="shadow-sm shadow-white bg-[#1f2937] font-semibold  flex items-center gap-2 md:gap-4 border-2 text-[12px] md:text-[14px] px-4 md:px-8 py-1 rounded-full">
+              <LuBrainCircuit size={24} />
+              IA lover
+            </span>
+          </div>
         </div>
-        <div className="mt-10">
-          <h1 className="text-5xl font-bold text-white">Hey, soy kevin</h1>
-          <p className="text-xl mt-7">
+        <div className="mt-10 px-3">
+          <h1 className="text-3xl md:text-5xl font-bold text-white">
+            Hey, soy kevin
+          </h1>
+          <p className="text-sm md:text-xl mt-7">
             Desarrollador FullStack con más de 5 años de experiencia en la
             creación de interfaces web modernas y escalables. He trabajado en
             proyectos para grandes empresas y como freelance, utilizando
             tecnologías como HTML, CSS, JavaScript y React para optimizar la
             experiencia de usuario y el rendimiento de aplicaciones web.
           </p>
-          <div className="flex gap-7 mt-10">
+          <div className="flex justify-center md:justify-start gap-7 mt-10">
             <a
               href="https://wa.me/34654470578"
               target="_blank"
