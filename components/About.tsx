@@ -6,7 +6,7 @@ import { RiReactjsFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className="section container flex items-center justify-center mx-auto lg:max-w-[1024px] md:max-w-2xl pt-8">
+    <div className="section container flex items-center justify-center mx-auto lg:max-w-[1024px] md:max-w-2xl pt-16 md:pt-0">
       <div className="flex-col ">
         <div className="flex flex-col md:flex-row items-center gap-4">
           <img
