@@ -11,18 +11,14 @@ import "react-toastify/dist/ReactToastify.css";
 import LogRocket from "logrocket";
 import Head from "next/head";
 
-const listProdSites = ["http://www.hikevindev.es/"];
-
 export default function Home() {
-  //Init register site
-  // if (listProdSites.includes(window.location.origin)) {
-  //   LogRocket.init("onp7ck/hikevindev");
-  // }
+  LogRocket.init("onp7ck/hikevindev");
 
   return (
     <section>
       <Head>
         <title>Desarrollo de Aplicaciones Móviles y Web</title>
+        <link rel="icon" href="icon.ico" type="image/x-icon"></link>
         <meta
           name="description"
           content="Programador web freelance especializado en desarrollo de aplicaciones móviles y sitios web a medida. Contacta para un desarrollo personalizado y eficiente."
