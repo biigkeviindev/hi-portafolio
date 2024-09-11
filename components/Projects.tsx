@@ -8,7 +8,7 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="mt-16 container flex  mx-auto pb-20 lg:max-w-[1024px] md:max-w-2xl"
+      className="mt-16 container flex  mx-auto pb-20 lg:max-w-[1024px] md:max-w-2xl pt-16 md:pt-0"
     >
       <div className="px-3 md:px-0">
         <h2 className="text-[30px] flex items-center gap-4 font-bold">

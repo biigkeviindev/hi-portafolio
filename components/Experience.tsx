@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className="sectionno container flex  mx-auto lg:max-w-[1024px] md:max-w-2xl"
+      className="sectionno container flex  mx-auto lg:max-w-[1024px] md:max-w-2xl pt-16 md:pt-0"
     >
       <div className="px-3 md:px-0">
         <h2 className="text-[30px] flex items-center gap-4 font-bold">
