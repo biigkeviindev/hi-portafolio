@@ -29,19 +29,19 @@ const Contact = () => {
   return (
     <div
       id="contacto"
-      className="sectionno container flex  mx-auto lg:max-w-[1024px] md:max-w-2xl"
+      className="sectionno px-3 md:px-0 container flex flex-col md:flex-row  mx-auto lg:max-w-[1024px] md:max-w-2xl"
     >
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <h4 className="text-2xl font-bold">¿Hablamos?</h4>
         <p className="mb-5">Tu idea, sea la que sea, me interesa.</p>
 
         <div className="mb-6">
           <h5 className="font-bold">Datos de contacto</h5>
           <p className="text-[14px]">
-            Teléfono de contacto: +34 686 507 686 Teléfono para empresas
+            Teléfono de contacto: +34 654 47 05 78 Teléfono para empresas
           </p>
           <p className="text-[14px]">Agencias: +34 654 470 578 </p>
-          <p className="text-[14px]">Email: equipo.pixeldigital@gmail.com</p>
+          <p className="text-[14px]">Email:hi.kevindev@gmail.com</p>
         </div>
 
         <div className="mb-6">
@@ -58,7 +58,7 @@ const Contact = () => {
           <p className="text-[14px]">C/ San Roque 52, Soneja, Castellon.</p>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
           <input
             type="text"

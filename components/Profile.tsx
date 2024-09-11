@@ -6,13 +6,13 @@ export const Profile = () => {
       id="aboutme"
       className="mt-16 container flex  mx-auto pb-20 lg:max-w-[1024px] md:max-w-2xl"
     >
-      <div>
+      <div className="px-3 md:px-0">
         <h2 className="text-[30px] flex items-center gap-4 font-bold">
           <MdOutlineAssignmentInd />
           Sobre mi
         </h2>
-        <div className="mt-20 flex  gap-14">
-          <div className="w-1/2">
+        <div className="mt-20 flex flex-col md:flex-row  gap-14">
+          <div className="w-full md:w-1/2">
             <p className="mb-3">
               ¡Hola! Soy Kevin Rivera Ramírez, un apasionado desarrollador de
               front-end con más de 5 años de experiencia en la creación de
@@ -37,7 +37,7 @@ export const Profile = () => {
               llevar tus ideas al siguiente nivel.
             </p>
           </div>
-          <div className="w-1/2 flex justify-center">
+          <div className="w-full md:w-1/2 flex justify-center">
             <img
               src="kevin.png"
               className="w-[310px] h-[300px] rounded-md shadow-sm -rotate-6 shadow-[#f1f2f3]"

@@ -11,7 +11,7 @@ const Experience = () => {
       id="experience"
       className="sectionno container flex  mx-auto lg:max-w-[1024px] md:max-w-2xl"
     >
-      <div>
+      <div className="px-3 md:px-0">
         <h2 className="text-[30px] flex items-center gap-4 font-bold">
           <MdWork />
           Experiencia laboral
@@ -46,14 +46,14 @@ const Experience = () => {
 
 const Item = ({ item }: any) => {
   return (
-    <div className="flex relative pt-4  pb-3 border-l-2 border-[#f1f2f3] min-h-[8rem] ">
-      <div className="px-6 w-1/2">
+    <div className="flex flex-col md:flex-row relative pt-4  pb-3 border-l-2 border-[#f1f2f3] min-h-[8rem] ">
+      <div className="px-6 md:w-1/2">
         <p className="text-xl text-[#facc15]">{item.cargo}</p>
         <p className="text-xl">{item.empresa}</p>
         <span className="text-sm text-[#ffffffcc]">{item.rango_fechas}</span>
       </div>
-      <div className="px-6 w-1/2">
-        <p className="text-lg">{item.descripcion}</p>
+      <div className="px-6 md:w-1/2">
+        <p className="text-[14px] md:text-lg">{item.descripcion}</p>
       </div>
       <div className="absolute w-4 h-4 rounded-full -left-2 bg-[#facc15]"></div>
     </div>
