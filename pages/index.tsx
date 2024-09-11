@@ -8,8 +8,16 @@ import Contact from "@/components/Contact";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import LogRocket from "logrocket";
+
+const listProdSites = ["http://www.hikevindev.es/"];
 
 export default function Home() {
+  //Init register site
+  if (listProdSites.includes(window.location.origin)) {
+    LogRocket.init("onp7ck/hikevindev");
+  }
+
   return (
     <section>
       <About />
