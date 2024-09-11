@@ -30,7 +30,7 @@ const Header = () => {
             <a
               href="https://wa.me/34654470578"
               target="_blank"
-              className="flex gap-2 bg-[#1FFF5E ] text-black rounded-md px-4 py-1"
+              className="flex gap-2 bg-[#1FFF5E] text-black rounded-md px-4 py-1"
             >
               <PiPhone size={24} />
               Contactar
